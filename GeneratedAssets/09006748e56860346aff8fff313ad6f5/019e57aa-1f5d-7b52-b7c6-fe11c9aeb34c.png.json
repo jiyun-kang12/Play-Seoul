@@ -1,0 +1,28 @@
+{
+    "asset": "09006748e56860346aff8fff313ad6f5",
+    "fileName": "019e57aa-1f5d-7b52-b7c6-fe11c9aeb34c.png",
+    "prompt": "Top-down 2D road texture map, dark gray asphalt surface with realistic rough grain. White painted road marking: two long parallel horizontal white lines, with repeated connected chevron zigzag shapes between them, like VV or <<< lane markings. Clean geometric Korean urban road marking, centered, seamless modular tile, no perspective, no 3D slab, no cars, no bus, no people, no green line, no text, no curb.",
+    "negativePrompt": "",
+    "model": "flux-2-dev",
+    "modelName": "Flux 2 (Dev)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

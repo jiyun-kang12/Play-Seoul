@@ -1,0 +1,28 @@
+{
+    "asset": "c76152750c3e2064f9ad4ad2307435da",
+    "fileName": "019e8d81-1e9a-76e2-9003-7bddb8805f32.jpg",
+    "prompt": "A 360-degree panoramic urban environment, seamless skybox, equirectangular environment map, nighttime city skyline with distant buildings, scattered office lights, soft atmospheric haze, realistic night lighting, calm urban mood, background environment only, no close objects, no people, no cars, no text",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

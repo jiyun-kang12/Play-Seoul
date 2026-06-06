@@ -10,6 +10,12 @@ public class CityPrefabScatterTool : EditorWindow
     private float rayStartHeight = 1000f;
     private float rayDistance = 3000f;
 
+    private bool randomYaw = true;
+
+    private bool useRandomScale = false;
+    private float minScale = 0.85f;
+    private float maxScale = 1.15f;
+
     [MenuItem("Tools/City/Prefab Scatter Tool")]
     public static void Open()
     {
@@ -44,14 +50,53 @@ public class CityPrefabScatterTool : EditorWindow
 
         placementMask = LayerMaskField("Placement Mask", placementMask);
 
+        EditorGUILayout.Space();
+
         rayStartHeight = EditorGUILayout.FloatField("Ray Start Height", rayStartHeight);
         rayDistance = EditorGUILayout.FloatField("Ray Distance", rayDistance);
 
         EditorGUILayout.Space();
 
+        randomYaw = EditorGUILayout.Toggle("Random Y Rotation", randomYaw);
+
+        EditorGUILayout.Space();
+
+        useRandomScale = EditorGUILayout.Toggle("Use Random Scale", useRandomScale);
+
+        if (useRandomScale)
+        {
+            EditorGUI.indentLevel++;
+
+            minScale = EditorGUILayout.FloatField("Min Scale", minScale);
+            maxScale = EditorGUILayout.FloatField("Max Scale", maxScale);
+
+            if (minScale <= 0f)
+                minScale = 0.01f;
+
+            if (maxScale <= 0f)
+                maxScale = 0.01f;
+
+            if (minScale > maxScale)
+            {
+                float temp = minScale;
+                minScale = maxScale;
+                maxScale = temp;
+            }
+
+            EditorGUI.indentLevel--;
+        }
+
+        EditorGUILayout.Space();
+
         EditorGUILayout.HelpBox(
-            "Scene View에서 Shift + 좌클릭하면 해당 위치의 가장 높은 Collider 표면에 prefab이 배치됩니다.\n" +
-            "배치된 prefab은 Y축 랜덤 회전되고, Renderer bounds의 최하단이 바닥에 자동 정렬됩니다.",
+            "Scene View에서 Shift + 좌클릭하면 해당 위치의 가장 높은 Collider 표면에 prefab이 배치됩니다.\n\n" +
+            "순서:\n" +
+            "1. Prefab 생성\n" +
+            "2. Parent 지정\n" +
+            "3. 위치/회전 지정\n" +
+            "4. 상위 Prefab Transform에 Uniform Scale 적용\n" +
+            "5. Renderer bounds 기준으로 바닥에 자동 정렬\n\n" +
+            "주의: Parent의 Scale은 가능하면 1,1,1로 두는 것을 권장합니다.",
             MessageType.Info
         );
     }
@@ -110,22 +155,44 @@ public class CityPrefabScatterTool : EditorWindow
     {
         GameObject obj = (GameObject)PrefabUtility.InstantiatePrefab(prefab);
 
+        if (obj == null)
+            return;
+
         Undo.RegisterCreatedObjectUndo(obj, "Place City Prefab");
-
-        obj.transform.position = surfacePoint;
-
-        obj.transform.rotation = Quaternion.Euler(
-            0f,
-            Random.Range(0f, 360f),
-            0f
-        );
 
         if (parent != null)
             obj.transform.SetParent(parent, true);
 
+        obj.transform.position = surfacePoint;
+
+        if (randomYaw)
+        {
+            obj.transform.rotation = Quaternion.Euler(
+                0f,
+                Random.Range(0f, 360f),
+                0f
+            );
+        }
+        else
+        {
+            obj.transform.rotation = prefab.transform.rotation;
+        }
+
+        ApplyRandomScale(obj);
+
         AlignBottomToSurface(obj, surfacePoint.y);
 
         Selection.activeGameObject = obj;
+    }
+
+    private void ApplyRandomScale(GameObject obj)
+    {
+        if (!useRandomScale)
+            return;
+
+        float randomScale = Random.Range(minScale, maxScale);
+
+        obj.transform.localScale = prefab.transform.localScale * randomScale;
     }
 
     private void AlignBottomToSurface(GameObject obj, float surfaceY)

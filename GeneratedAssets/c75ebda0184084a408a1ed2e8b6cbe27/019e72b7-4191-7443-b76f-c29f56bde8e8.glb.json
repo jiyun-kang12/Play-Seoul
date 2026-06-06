@@ -1,0 +1,23 @@
+{
+    "asset": "c75ebda0184084a408a1ed2e8b6cbe27",
+    "fileName": "019e72b7-4191-7443-b76f-c29f56bde8e8.glb",
+    "prompt": "Old weathered wooden crates, industrial style, high fidelity mesh and textures",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "16f6e1de3dc53594d9d70c408da48089",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

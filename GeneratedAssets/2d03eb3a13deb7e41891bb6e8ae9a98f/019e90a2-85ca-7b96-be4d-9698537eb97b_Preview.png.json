@@ -1,0 +1,12 @@
+{
+    "asset": "2d03eb3a13deb7e41891bb6e8ae9a98f",
+    "fileName": "019e90a2-85ca-7b96-be4d-9698537eb97b_Preview.png",
+    "prompt": "dark gray abandoned railway depot wall material, old industrial cargo warehouse wall, large horizontal corrugated metal siding, container-like steel wall panels in the background, charcoal gray, dark neutral gray, faded dirty gray metal, subtle brown rust stains, black soot, rain streaks, grime, damp aged surface, low contrast, desaturated, realistic PBR material, seamless tileable texture, front-facing flat wall texture, no perspective, no objects",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1651241474,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

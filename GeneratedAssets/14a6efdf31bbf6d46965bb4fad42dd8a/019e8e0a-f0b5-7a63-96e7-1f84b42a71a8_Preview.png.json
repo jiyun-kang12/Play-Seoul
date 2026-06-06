@@ -1,0 +1,12 @@
+{
+    "asset": "14a6efdf31bbf6d46965bb4fad42dd8a",
+    "fileName": "019e8e0a-f0b5-7a63-96e7-1f84b42a71a8_Preview.png",
+    "prompt": "seamless tileable dark wet square stone floor texture, perfectly matching edges, no visible seams, no border artifacts, evenly tileable, top-down orthographic PBR material",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

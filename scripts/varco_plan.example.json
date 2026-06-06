@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "image": "References/train_front.png",
+      "output": "Assets/00 Ghost Station/varco_locomotive_front.glb",
+      "target_face_type": "tri",
+      "target_face_num": 300000,
+      "generate_texture": true,
+      "seed": -1
+    },
+    {
+      "image": "References/station_prop.png",
+      "output": "Assets/00 Ghost Station/varco_station_prop.glb",
+      "target_face_type": "tri",
+      "target_face_num": 120000,
+      "generate_texture": true,
+      "seed": -1
+    }
+  ]
+}

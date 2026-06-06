@@ -1,0 +1,12 @@
+{
+    "asset": "48879ce60a531654fb6b1df6a6f6f646",
+    "fileName": "019e8dd9-e60f-7cac-95af-d069f14e365d_Preview.png",
+    "prompt": "dark wet square stone paving floor, old abandoned railway station platform, uneven charcoal stone tiles, each tile has subtle color variation, worn edges, dirty gaps, small scratches, scuff marks, dust, grime, faint oil stains, subtle damp reflective patches, not mirror-like, realistic aged industrial PBR material, seamless tileable texture, top-down orthographic",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1531833439,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

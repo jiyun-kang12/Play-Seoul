@@ -1,0 +1,23 @@
+{
+    "asset": "8c3eda5b5e8de8b4e94f94c71ec4874f",
+    "fileName": "019e72ad-a924-707f-838c-35f8bd0648f5.glb",
+    "prompt": "Highly detailed vintage green and maroon diesel locomotive, industrial 1950s style, weathered metal finish, high fidelity mesh and PBR textures",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "f55b55f102bca6746ae4caafb7749f75",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

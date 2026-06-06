@@ -1,0 +1,23 @@
+{
+    "asset": "11e5ce0d5ed166c4ea1e1faf5b00fa54",
+    "fileName": "019e72b7-696e-7241-9487-3f0314aac5b3.glb",
+    "prompt": "Industrial rusted steel pipes, weathered finish, high fidelity mesh and textures",
+    "negativePrompt": "",
+    "model": "model3d-tripo-p1",
+    "modelName": "Tripo P1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "promptImageReferenceGuid": "68a90ab65df99b449952f1a5993907b0",
+    "modelReferenceGuid": "",
+    "multiviewFrontGuid": "",
+    "multiviewBackGuid": "",
+    "multiviewLeftGuid": "",
+    "multiviewRightGuid": "",
+    "multiviewTopGuid": "",
+    "multiviewBottomGuid": "",
+    "multiviewLeftFrontGuid": "",
+    "multiviewRightFrontGuid": "",
+    "faceLimit": -1
+}

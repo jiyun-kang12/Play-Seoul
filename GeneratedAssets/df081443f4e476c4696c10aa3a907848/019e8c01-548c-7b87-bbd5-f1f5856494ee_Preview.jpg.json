@@ -1,0 +1,12 @@
+{
+    "asset": "df081443f4e476c4696c10aa3a907848",
+    "fileName": "019e8c01-548c-7b87-bbd5-f1f5856494ee_Preview.jpg",
+    "prompt": "crosswalk",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1625483337,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

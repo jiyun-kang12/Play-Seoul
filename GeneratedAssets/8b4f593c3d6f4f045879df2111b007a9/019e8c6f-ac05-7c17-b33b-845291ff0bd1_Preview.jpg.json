@@ -1,0 +1,12 @@
+{
+    "asset": "8b4f593c3d6f4f045879df2111b007a9",
+    "fileName": "019e8c6f-ac05-7c17-b33b-845291ff0bd1_Preview.jpg",
+    "prompt": "Single yellow tactile paving tile, raised warning dots evenly",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1839825866,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

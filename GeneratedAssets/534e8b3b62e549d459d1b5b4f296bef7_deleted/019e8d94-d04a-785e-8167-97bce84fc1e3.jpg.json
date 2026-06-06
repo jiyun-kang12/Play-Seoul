@@ -1,0 +1,28 @@
+{
+    "asset": "534e8b3b62e549d459d1b5b4f296bef7",
+    "fileName": "019e8d94-d04a-785e-8167-97bce84fc1e3.jpg",
+    "prompt": "A seamless 360-degree equirectangular skybox for a modern daytime city scene, bright blue sky with soft white clouds, distant Seoul-like skyline visible slightly above the horizon, very far background buildings only, no ground plane, no close objects, no roads, no people, no vehicles, no text, realistic daylight",
+    "negativePrompt": "",
+    "model": "skybox-cinematic",
+    "modelName": "Cinematic",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "52815605c98084e4c823c508f8831698",
+    "fileName": "019e7294-f6fb-7a34-99ff-292de9f8bf00_Preview.jpg",
+    "prompt": "dark industrial rusted metal beam, hangar structure, high detail, seamless, realistic pbr",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 2057493216,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

@@ -1,0 +1,12 @@
+{
+    "asset": "3f403fcc2ceed1d4a89be7a4e31e1398",
+    "fileName": "019e7294-f4e1-749a-94bc-08ba8fd330c4_Preview.jpg",
+    "prompt": "wet dark industrial cobblestone floor, high detail, seamless, realistic pbr",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 882833674,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}
