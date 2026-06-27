@@ -7,21 +7,13 @@
       "dependencies": {}
     },
     "com.unity.ai.assistant": {
-<<<<<<< Updated upstream
       "version": "2.9.0-pre.2",
-=======
-      "version": "2.10.0-pre.1",
->>>>>>> Stashed changes
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.2d.sprite": "1.0.0",
         "com.unity.mathematics": "1.3.2",
-<<<<<<< Updated upstream
         "com.unity.cloud.gltfast": "6.14.1",
-=======
-        "com.unity.nuget.mono-cecil": "1.11.5",
->>>>>>> Stashed changes
         "com.unity.modules.uielements": "1.0.0",
         "com.unity.nuget.newtonsoft-json": "3.2.1",
         "com.unity.modules.unitywebrequest": "1.0.0"
@@ -81,11 +73,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.collections": {
-<<<<<<< Updated upstream
       "version": "2.6.6",
-=======
-      "version": "2.6.5",
->>>>>>> Stashed changes
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -109,7 +97,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< Updated upstream
     "com.unity.editorcoroutines": {
       "version": "1.1.0",
       "depth": 0,
@@ -117,8 +104,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-=======
->>>>>>> Stashed changes
     "com.unity.ext.nunit": {
       "version": "2.0.5",
       "depth": 1,
@@ -169,11 +154,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.6",
-<<<<<<< Updated upstream
       "depth": 2,
-=======
-      "depth": 1,
->>>>>>> Stashed changes
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
