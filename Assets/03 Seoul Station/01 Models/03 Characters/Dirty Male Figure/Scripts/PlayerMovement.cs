@@ -28,6 +28,13 @@ public class PlayerMovement : MonoBehaviour
     {
         controller = GetComponent<CharacterController>();
 
+        if (controller == null)
+        {
+            Debug.LogError("PlayerMovement: CharacterController가 없습니다. " + name + "에 CharacterController를 추가하세요.", this);
+            enabled = false;
+            return;
+        }
+
         if (cameraTransform == null && Camera.main != null)
         {
             cameraTransform = Camera.main.transform;
@@ -36,6 +43,12 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // CharacterController가 런타임 중 제거/파괴되었을 경우 안전하게 중단
+        if (controller == null)
+        {
+            return;
+        }
+
         bool isGrounded = controller.isGrounded;
 
         // 바닥에 붙어 있을 때 살짝 아래로 눌러서 grounded 판정 안정화
